@@ -135,3 +135,29 @@ function clicou(){
     document.getElementById("agradecimento").innerHTML = "Obrigado por clicar";
     console.log(document.getElementById("agradecimento"));
 }
+function redirect(){
+    window.open("https://globallabs.academy/");
+    //window.location.href = "https://globallabs.academy/";
+}
+function over(){
+    alert("Obrigado por passar o mouse");
+}
+function click(){
+    document.getElementById("agradecimento");
+
+}
+function trade(element){
+    element.innerHTML = "Obrigado por passar o mouse";
+    //document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse";
+
+}
+function back(element){
+    element.innerHTML = "Passe o mouse aqui";
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+}
+function already(){
+    alert("Página carregada");
+}
+function funcaoChange(element){
+    console.log(element.value);
+}
